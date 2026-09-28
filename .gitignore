@@ -1,0 +1,23 @@
+doc
+
+
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers secrets / variables d'environnement (JAMAIS sur Git)
+.env
+.env.local
+.env.*.local
+
+# Fichiers temporaires Office (Word lock files)
+~$*.docx
+~$*.doc
+*.tmp
+
+# Fichiers système
+Thumbs.db
+.DS_Store
+
